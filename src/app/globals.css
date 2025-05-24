@@ -5,17 +5,21 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-blue: #3887FE;
+  --color-lemon: #FFE66D;
+  --font-header: 'Inter', var(--font-inter), Arial, Helvetica, sans-serif;
+  --font-body: 'Raleway', var(--font-raleway), Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0A1931;
+  --foreground: #ffffff;
+  --color-blue: #3887FE;
+  --color-lemon: #FFE66D;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
 }
