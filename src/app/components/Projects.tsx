@@ -53,8 +53,6 @@ const projects = [
 ];
 
 export default function Projects() {
-  const [hoveredId, setHoveredId] = useState<number | null>(null);
-
   return (
     <section className="relative w-full py-20 bg-transparent" id="projects">
       <span className="mb-3 flex items-center justify-center">
@@ -82,8 +80,6 @@ export default function Projects() {
             <div
               key={project.id}
               className="group relative bg-white dark:bg-black/20 rounded-2xl overflow-hidden shadow-lg"
-              onMouseEnter={() => setHoveredId(project.id)}
-              onMouseLeave={() => setHoveredId(null)}
             >
               {/* 프로젝트 이미지 */}
               <div className="relative h-48 w-full overflow-hidden">

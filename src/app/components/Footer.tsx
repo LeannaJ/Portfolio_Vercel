@@ -65,7 +65,7 @@ export default function Footer() {
             <span className="text-[color:var(--color-blue)] dark:text-[color:var(--color-lemon)]">Leanna</span> Jeon
           </div>
           <div className="text-base text-gray-500 dark:text-gray-300 max-w-xs">
-            Product-minded data scientist passionate about analytics, product, and user experience.
+            Product-minded data scientist passionate about analytics and AI product.
           </div>
         </div>
         {/* 가운데: 퀵링크 */}

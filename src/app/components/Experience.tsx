@@ -144,8 +144,6 @@ function Card({ exp, isOpen, onClick, className = "" }: CardProps) {
   );
 }
 
-function Logo() { return null; }
-
 export default function Experience() {
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
