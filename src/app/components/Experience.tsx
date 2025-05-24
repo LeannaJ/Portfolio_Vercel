@@ -67,7 +67,24 @@ const experiences = [
   }
 ];
 
-function Card({ exp, isOpen, onClick, className = "" }: any) {
+type Experience = {
+  company: string;
+  position: string;
+  period: string;
+  location: string;
+  logo: string;
+  details: string[] | string;
+  keywords: string[];
+};
+
+type CardProps = {
+  exp: Experience;
+  isOpen: boolean;
+  onClick: () => void;
+  className?: string;
+};
+
+function Card({ exp, isOpen, onClick, className = "" }: CardProps) {
   return (
     <div
       className={`relative w-full max-w-md bg-black/10 dark:bg-white/20 rounded-2xl shadow-lg p-6 pl-4 transition-all duration-300 cursor-pointer hover:scale-[1.02] ${className}`}
@@ -108,14 +125,14 @@ function Card({ exp, isOpen, onClick, className = "" }: any) {
         <div className="mt-4 text-sm text-black dark:text-white">
           <ul className="list-disc pl-6 marker:text-base marker:text-gray-700 dark:marker:text-gray-200 space-y-3 leading-tight">
             {Array.isArray(exp.details)
-              ? exp.details.map((line: any, i: any) => (
+              ? exp.details.map((line, i) => (
                   <li key={i} className="leading-relaxed">{line.replace(/^•\s*/, "")}</li>
                 ))
               : <li className="leading-relaxed">{exp.details}</li>
             }
           </ul>
           <div className="flex flex-wrap gap-2 mt-6">
-            {exp.keywords.map((kw: any, i: any) => (
+            {exp.keywords.map((kw, i) => (
               <span key={i} className="px-2 py-1 bg-blue-600/80 text-white text-xs rounded-full dark:bg-[color:var(--color-lemon)] dark:text-[#0A1931]">
                 {kw}
               </span>

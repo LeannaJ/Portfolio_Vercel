@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, ChangeEvent, FormEvent } from "react";
 
 const contactInfo = [
   {
@@ -48,11 +48,11 @@ export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSent(true);
     // 실제 이메일 전송 로직은 별도 구현 필요
