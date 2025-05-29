@@ -8,7 +8,8 @@ const projects = [
     description: "Collaborative analytics project optimizing trailer distribution strategy for logistics efficiency",
     image: "/assets/projects/logistics_van.jpg",
     tags: ["Python", "API", "MILP", "Folium", "Ortools", "Logistics Strategy", "Optimization", "Visualization"],
-    demo: "/files/map_anonymized.html"
+    ppts: "/files/Final Poster.pdf",
+    demo: "/files/Anon_Allocation_Map.html"
   },
   {
     id: 2,
@@ -17,7 +18,7 @@ const projects = [
     image: "/assets/projects/image_processing_g_fix.jpg",
     tags: ["Python", "CNN", "XGBoost", "Keras", "PyTorch", "TensorFlow", "Classification", "Image Processing"],
     github: "https://github.com/LeannaJ/image_processing",
-    demo: "/files/Pawpularity.pdf"
+    ppts: "/files/Pawpularity.pdf"
   },
   {
     id: 3,
@@ -25,6 +26,7 @@ const projects = [
     description: "Predictive modeling for bracket prediction of national championship in NCAA March Madness",
     image: "/assets/projects/sports_bracket.jpg",
     tags: ["Python", "XGBoost", "TabNet", "Ensemble", "Sports Analytics", "Prediction", "Tableau Visualization"],
+    ppts: "/files/CCAC_slides_synthetic.pdf"
   },
   {
     id: 4,
@@ -33,7 +35,7 @@ const projects = [
     image: "/assets/projects/AI_fix.jpg",
     tags: ["Python", "LangChain", "LangSmith", "Hugging Face", "LLM", "RAG", "Prompt Engineering", "Agentic AI"],
     github: "https://github.com/LeannaJ/AI_Agent_DA",
-    demo: "/files/ETB_PT_Slide_Total.pdf"
+    ppts: "/files/ETB_PT_Slide_Total.pdf"
   },
   {
     id: 5,
@@ -127,6 +129,22 @@ export default function Projects() {
                       Code
                     </a>
                   )}
+                  {project.ppts && (
+                    <a
+                      href={project.ppts}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-xs text-gray-700 dark:text-[color:var(--color-lemon)] hover:text-[color:var(--color-blue)] dark:hover:text-[color:var(--color-lemon)] font-medium"
+                    >
+                      {/* External Link 아이콘 */}
+                      <svg className="w-5 h-5 mr-1 text-gray-700 dark:text-[color:var(--color-lemon)]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                        <polyline points="15 3 21 3 21 9" />
+                        <line x1="10" y1="14" x2="21" y2="3" />
+                      </svg>
+                      Deliverables
+                    </a>
+                  )}
                   {project.demo && (
                     <a
                       href={project.demo}
@@ -140,7 +158,7 @@ export default function Projects() {
                         <polyline points="15 3 21 3 21 9" />
                         <line x1="10" y1="14" x2="21" y2="3" />
                       </svg>
-                      Deliverables
+                      Live Demo
                     </a>
                   )}
                 </div>

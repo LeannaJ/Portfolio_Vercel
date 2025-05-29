@@ -1,0 +1,2936 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1ca5f15a324e459f55ba0eb91cd0a7f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1ca5f15a324e459f55ba0eb91cd0a7f3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1ca5f15a324e459f55ba0eb91cd0a7f3 = L.map(
+                "map_1ca5f15a324e459f55ba0eb91cd0a7f3",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_40f407e714458e080d1ec8782343f06a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_40f407e714458e080d1ec8782343f06a.addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var marker_59f16353d00d1680c9029d74adee8e4d = L.marker(
+                [42.91765396432139, -78.83170749155465],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_4e5e91c9ba92aa291029a3f653363dc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_59f16353d00d1680c9029d74adee8e4d.setIcon(icon_4e5e91c9ba92aa291029a3f653363dc5);
+        
+    
+        var popup_276a3026926da5509872e76ae9e2fcc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bd0f18e6e8d6799fad2bbcf981686c2 = $(`<div id="html_6bd0f18e6e8d6799fad2bbcf981686c2" style="width: 100.0%; height: 100.0%;">Location: Dealer-D297<br>Type: Dealer<br>Allocated Trailers: 21.0</div>`)[0];
+                popup_276a3026926da5509872e76ae9e2fcc3.setContent(html_6bd0f18e6e8d6799fad2bbcf981686c2);
+            
+        
+
+        marker_59f16353d00d1680c9029d74adee8e4d.bindPopup(popup_276a3026926da5509872e76ae9e2fcc3)
+        ;
+
+        
+    
+    
+            var marker_1faba6caa80468315074109f46f4d2ad = L.marker(
+                [33.98744326013268, -84.53308782985376],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_a813ea3627108bbf2e4548183759e046 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1faba6caa80468315074109f46f4d2ad.setIcon(icon_a813ea3627108bbf2e4548183759e046);
+        
+    
+        var popup_aa5a72451e1d898f14eb154fd328dd36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_967aa695159357e794bb7653302b7d48 = $(`<div id="html_967aa695159357e794bb7653302b7d48" style="width: 100.0%; height: 100.0%;">Location: Dealer-D309<br>Type: Dealer<br>Allocated Trailers: 20.0</div>`)[0];
+                popup_aa5a72451e1d898f14eb154fd328dd36.setContent(html_967aa695159357e794bb7653302b7d48);
+            
+        
+
+        marker_1faba6caa80468315074109f46f4d2ad.bindPopup(popup_aa5a72451e1d898f14eb154fd328dd36)
+        ;
+
+        
+    
+    
+            var marker_cf896c150c1134b0da2e6792f2229fce = L.marker(
+                [32.73189110767988, -96.75973148802224],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_8a702da867ccf083a16c54f852ad6c6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cf896c150c1134b0da2e6792f2229fce.setIcon(icon_8a702da867ccf083a16c54f852ad6c6f);
+        
+    
+        var popup_69fd5001714ab0867654068049000a1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06f00ba11fdeaf7c9453add677ce939a = $(`<div id="html_06f00ba11fdeaf7c9453add677ce939a" style="width: 100.0%; height: 100.0%;">Location: Dealer-D287<br>Type: Dealer<br>Allocated Trailers: 15.0</div>`)[0];
+                popup_69fd5001714ab0867654068049000a1d.setContent(html_06f00ba11fdeaf7c9453add677ce939a);
+            
+        
+
+        marker_cf896c150c1134b0da2e6792f2229fce.bindPopup(popup_69fd5001714ab0867654068049000a1d)
+        ;
+
+        
+    
+    
+            var marker_3d37f868ddf9641908b302bf71ae6d6b = L.marker(
+                [34.05192270846015, -118.22766257757016],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_f418e4969f99f93d28449d2b5780d26f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3d37f868ddf9641908b302bf71ae6d6b.setIcon(icon_f418e4969f99f93d28449d2b5780d26f);
+        
+    
+        var popup_5459868390f637aa70f3b9a3a757012d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25afa92e29bde354d3e72181b770b384 = $(`<div id="html_25afa92e29bde354d3e72181b770b384" style="width: 100.0%; height: 100.0%;">Location: Dealer-D377<br>Type: Dealer<br>Allocated Trailers: 18.0</div>`)[0];
+                popup_5459868390f637aa70f3b9a3a757012d.setContent(html_25afa92e29bde354d3e72181b770b384);
+            
+        
+
+        marker_3d37f868ddf9641908b302bf71ae6d6b.bindPopup(popup_5459868390f637aa70f3b9a3a757012d)
+        ;
+
+        
+    
+    
+            var marker_ff0b14a8ef7a887eb42134760bb37dde = L.marker(
+                [29.72565320104319, -95.37486082656858],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_96c2ec5700861410dc0fdd3542112a4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ff0b14a8ef7a887eb42134760bb37dde.setIcon(icon_96c2ec5700861410dc0fdd3542112a4d);
+        
+    
+        var popup_542fb123c67223aa408f761775efa710 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bb3aa950ed6713c76ca4806d3a981ee = $(`<div id="html_0bb3aa950ed6713c76ca4806d3a981ee" style="width: 100.0%; height: 100.0%;">Location: Dealer-D65<br>Type: Dealer<br>Allocated Trailers: 15.0</div>`)[0];
+                popup_542fb123c67223aa408f761775efa710.setContent(html_0bb3aa950ed6713c76ca4806d3a981ee);
+            
+        
+
+        marker_ff0b14a8ef7a887eb42134760bb37dde.bindPopup(popup_542fb123c67223aa408f761775efa710)
+        ;
+
+        
+    
+    
+            var marker_933b5793a1c761fc98251575b8550e54 = L.marker(
+                [42.52402715844266, -83.03681336700414],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_2b82b255abee794169660ac013332210 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_933b5793a1c761fc98251575b8550e54.setIcon(icon_2b82b255abee794169660ac013332210);
+        
+    
+        var popup_04d0862058b005e0d2a6b566215b2f5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3e112c8ab7a9d4f00a77ad65d5315ad = $(`<div id="html_a3e112c8ab7a9d4f00a77ad65d5315ad" style="width: 100.0%; height: 100.0%;">Location: Dealer-D251<br>Type: Dealer<br>Allocated Trailers: 15.0</div>`)[0];
+                popup_04d0862058b005e0d2a6b566215b2f5c.setContent(html_a3e112c8ab7a9d4f00a77ad65d5315ad);
+            
+        
+
+        marker_933b5793a1c761fc98251575b8550e54.bindPopup(popup_04d0862058b005e0d2a6b566215b2f5c)
+        ;
+
+        
+    
+    
+            var marker_a939e229ee46955dc2f4a72f86f6850d = L.marker(
+                [40.236217352310064, -76.85024076955122],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_a8c62a54dcae596daff7ea0275096249 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a939e229ee46955dc2f4a72f86f6850d.setIcon(icon_a8c62a54dcae596daff7ea0275096249);
+        
+    
+        var popup_57f8a233e4782f3295bdea26077118f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65f73dd941901a47f7fefd8274c39647 = $(`<div id="html_65f73dd941901a47f7fefd8274c39647" style="width: 100.0%; height: 100.0%;">Location: Dealer-D86<br>Type: Dealer<br>Allocated Trailers: 13.0</div>`)[0];
+                popup_57f8a233e4782f3295bdea26077118f4.setContent(html_65f73dd941901a47f7fefd8274c39647);
+            
+        
+
+        marker_a939e229ee46955dc2f4a72f86f6850d.bindPopup(popup_57f8a233e4782f3295bdea26077118f4)
+        ;
+
+        
+    
+    
+            var marker_91f687e98cd5d8ff67ad31f603ada246 = L.marker(
+                [37.303777454057645, -77.61332954821098],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_6925c90d9688f6f78b34b5fcbcd06cc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_91f687e98cd5d8ff67ad31f603ada246.setIcon(icon_6925c90d9688f6f78b34b5fcbcd06cc2);
+        
+    
+        var popup_273a476e3c1836c1de743b1d53738feb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c26a8740e0eed4b31d419c067afb3edf = $(`<div id="html_c26a8740e0eed4b31d419c067afb3edf" style="width: 100.0%; height: 100.0%;">Location: Dealer-D147<br>Type: Dealer<br>Allocated Trailers: 12.0</div>`)[0];
+                popup_273a476e3c1836c1de743b1d53738feb.setContent(html_c26a8740e0eed4b31d419c067afb3edf);
+            
+        
+
+        marker_91f687e98cd5d8ff67ad31f603ada246.bindPopup(popup_273a476e3c1836c1de743b1d53738feb)
+        ;
+
+        
+    
+    
+            var marker_de395c27b0403e62f477503f99587604 = L.marker(
+                [33.43423757202693, -112.05667276166366],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_34e507edefa775be8c40f5848e558305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_de395c27b0403e62f477503f99587604.setIcon(icon_34e507edefa775be8c40f5848e558305);
+        
+    
+        var popup_5a1466107bf4bf11079250e49fed7d36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fce41e3e506e260a9ffa7df6aa500b5 = $(`<div id="html_1fce41e3e506e260a9ffa7df6aa500b5" style="width: 100.0%; height: 100.0%;">Location: Dealer-D361<br>Type: Dealer<br>Allocated Trailers: 12.0</div>`)[0];
+                popup_5a1466107bf4bf11079250e49fed7d36.setContent(html_1fce41e3e506e260a9ffa7df6aa500b5);
+            
+        
+
+        marker_de395c27b0403e62f477503f99587604.bindPopup(popup_5a1466107bf4bf11079250e49fed7d36)
+        ;
+
+        
+    
+    
+            var marker_d325785e8bdafe75f4c24fb197f77d59 = L.marker(
+                [39.75460550744928, -86.15663227835127],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_6a3aae06a26e040da7f0ee78a841b5d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d325785e8bdafe75f4c24fb197f77d59.setIcon(icon_6a3aae06a26e040da7f0ee78a841b5d8);
+        
+    
+        var popup_52b68dbcd08dc91044967cbab6c9d747 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bb2c27e0793c9685e2426f418fd09c4 = $(`<div id="html_6bb2c27e0793c9685e2426f418fd09c4" style="width: 100.0%; height: 100.0%;">Location: Dealer-D182<br>Type: Dealer<br>Allocated Trailers: 12.0</div>`)[0];
+                popup_52b68dbcd08dc91044967cbab6c9d747.setContent(html_6bb2c27e0793c9685e2426f418fd09c4);
+            
+        
+
+        marker_d325785e8bdafe75f4c24fb197f77d59.bindPopup(popup_52b68dbcd08dc91044967cbab6c9d747)
+        ;
+
+        
+    
+    
+            var marker_063a012bdd535ea6499c5352b5b613d7 = L.marker(
+                [40.57926360730367, -75.40056314639092],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_ced755ce3a4515b8f1e8530693fcc0e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_063a012bdd535ea6499c5352b5b613d7.setIcon(icon_ced755ce3a4515b8f1e8530693fcc0e5);
+        
+    
+        var popup_5b3659c11c3d2f9b2b42d859b59f14b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e47b5f142ebdffa9016b54392b83dfc = $(`<div id="html_3e47b5f142ebdffa9016b54392b83dfc" style="width: 100.0%; height: 100.0%;">Location: Dealer-D93<br>Type: Dealer<br>Allocated Trailers: 10.0</div>`)[0];
+                popup_5b3659c11c3d2f9b2b42d859b59f14b6.setContent(html_3e47b5f142ebdffa9016b54392b83dfc);
+            
+        
+
+        marker_063a012bdd535ea6499c5352b5b613d7.bindPopup(popup_5b3659c11c3d2f9b2b42d859b59f14b6)
+        ;
+
+        
+    
+    
+            var marker_4f527683a4a4452ab3857313ddba34f4 = L.marker(
+                [41.40814397322065, -88.17269378970425],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_ad8318c82988a58ab0804189e197397a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f527683a4a4452ab3857313ddba34f4.setIcon(icon_ad8318c82988a58ab0804189e197397a);
+        
+    
+        var popup_58f42eb0217e03f58eb1330c2bcdfec4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fdf4bc14de206a7a1a799bfaddb3fcd = $(`<div id="html_9fdf4bc14de206a7a1a799bfaddb3fcd" style="width: 100.0%; height: 100.0%;">Location: Dealer-D236<br>Type: Dealer<br>Allocated Trailers: 10.0</div>`)[0];
+                popup_58f42eb0217e03f58eb1330c2bcdfec4.setContent(html_9fdf4bc14de206a7a1a799bfaddb3fcd);
+            
+        
+
+        marker_4f527683a4a4452ab3857313ddba34f4.bindPopup(popup_58f42eb0217e03f58eb1330c2bcdfec4)
+        ;
+
+        
+    
+    
+            var marker_f5cb8ce8cc69003d800108b6fa11ad2a = L.marker(
+                [39.943320575642026, -75.24033734435173],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_2d49e18c35bd8c25f3d86f199ddcd4d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f5cb8ce8cc69003d800108b6fa11ad2a.setIcon(icon_2d49e18c35bd8c25f3d86f199ddcd4d1);
+        
+    
+        var popup_17d851a48a9fd07c8b87acdf46aa8912 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c845307cc5011f84a2c963f72b7547e = $(`<div id="html_5c845307cc5011f84a2c963f72b7547e" style="width: 100.0%; height: 100.0%;">Location: Dealer-D247<br>Type: Dealer<br>Allocated Trailers: 11.0</div>`)[0];
+                popup_17d851a48a9fd07c8b87acdf46aa8912.setContent(html_5c845307cc5011f84a2c963f72b7547e);
+            
+        
+
+        marker_f5cb8ce8cc69003d800108b6fa11ad2a.bindPopup(popup_17d851a48a9fd07c8b87acdf46aa8912)
+        ;
+
+        
+    
+    
+            var marker_857a268329a4836129b7912940817a6a = L.marker(
+                [39.85500833863356, -82.90708598121837],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_34e4ba85b04d5c447f76cb348fb83da4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_857a268329a4836129b7912940817a6a.setIcon(icon_34e4ba85b04d5c447f76cb348fb83da4);
+        
+    
+        var popup_7df3ecbb8edc1811e0fdf18660fd69d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b94c183c080d6a8ed21a6fa85977a83 = $(`<div id="html_4b94c183c080d6a8ed21a6fa85977a83" style="width: 100.0%; height: 100.0%;">Location: Dealer-D447<br>Type: Dealer<br>Allocated Trailers: 9.0</div>`)[0];
+                popup_7df3ecbb8edc1811e0fdf18660fd69d5.setContent(html_4b94c183c080d6a8ed21a6fa85977a83);
+            
+        
+
+        marker_857a268329a4836129b7912940817a6a.bindPopup(popup_7df3ecbb8edc1811e0fdf18660fd69d5)
+        ;
+
+        
+    
+    
+            var marker_db57469f2503945ce613638c0d011231 = L.marker(
+                [32.77428926429145, -97.33546996382933],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_47ecbcd3a3013f0c392305ccb7103663 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_db57469f2503945ce613638c0d011231.setIcon(icon_47ecbcd3a3013f0c392305ccb7103663);
+        
+    
+        var popup_9da389e371cab43f309e2885c78bbfd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35ba5f0654a5f514b42a5888a7aa17e7 = $(`<div id="html_35ba5f0654a5f514b42a5888a7aa17e7" style="width: 100.0%; height: 100.0%;">Location: Dealer-D187<br>Type: Dealer<br>Allocated Trailers: 8.0</div>`)[0];
+                popup_9da389e371cab43f309e2885c78bbfd1.setContent(html_35ba5f0654a5f514b42a5888a7aa17e7);
+            
+        
+
+        marker_db57469f2503945ce613638c0d011231.bindPopup(popup_9da389e371cab43f309e2885c78bbfd1)
+        ;
+
+        
+    
+    
+            var marker_e700249dc0e8488004ef5d2491157dff = L.marker(
+                [41.8577277509612, -87.66790661400844],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_bd5a7999180b662b74ed667ed14d2b06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e700249dc0e8488004ef5d2491157dff.setIcon(icon_bd5a7999180b662b74ed667ed14d2b06);
+        
+    
+        var popup_1c91bf153054f06aca60877a87f78c86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e219169cbbd9d55cc271b0ec5f014f86 = $(`<div id="html_e219169cbbd9d55cc271b0ec5f014f86" style="width: 100.0%; height: 100.0%;">Location: Dealer-D310<br>Type: Dealer<br>Allocated Trailers: 9.0</div>`)[0];
+                popup_1c91bf153054f06aca60877a87f78c86.setContent(html_e219169cbbd9d55cc271b0ec5f014f86);
+            
+        
+
+        marker_e700249dc0e8488004ef5d2491157dff.bindPopup(popup_1c91bf153054f06aca60877a87f78c86)
+        ;
+
+        
+    
+    
+            var marker_96edde0b4c25957cdf4efd9bfe15e1e2 = L.marker(
+                [35.2126586899748, -80.8032053544335],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_2c4c8a710c57b5800c8cb6ad13865b27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_96edde0b4c25957cdf4efd9bfe15e1e2.setIcon(icon_2c4c8a710c57b5800c8cb6ad13865b27);
+        
+    
+        var popup_dee3fcd79580db522f62ee704b82e662 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eec25faef7f872fa108c97d1f54dcc06 = $(`<div id="html_eec25faef7f872fa108c97d1f54dcc06" style="width: 100.0%; height: 100.0%;">Location: Dealer-D121<br>Type: Dealer<br>Allocated Trailers: 7.0</div>`)[0];
+                popup_dee3fcd79580db522f62ee704b82e662.setContent(html_eec25faef7f872fa108c97d1f54dcc06);
+            
+        
+
+        marker_96edde0b4c25957cdf4efd9bfe15e1e2.bindPopup(popup_dee3fcd79580db522f62ee704b82e662)
+        ;
+
+        
+    
+    
+            var marker_4fa2e271aa34db501e4486fa0671d38b = L.marker(
+                [43.07297522691032, -87.91286464360249],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_040652e151808dc29b17bc6ddb253764 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4fa2e271aa34db501e4486fa0671d38b.setIcon(icon_040652e151808dc29b17bc6ddb253764);
+        
+    
+        var popup_2e830374e32194426b9b5774a432fdce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85ad495ee408a8d3fcccbc410248715e = $(`<div id="html_85ad495ee408a8d3fcccbc410248715e" style="width: 100.0%; height: 100.0%;">Location: Dealer-D60<br>Type: Dealer<br>Allocated Trailers: 7.0</div>`)[0];
+                popup_2e830374e32194426b9b5774a432fdce.setContent(html_85ad495ee408a8d3fcccbc410248715e);
+            
+        
+
+        marker_4fa2e271aa34db501e4486fa0671d38b.bindPopup(popup_2e830374e32194426b9b5774a432fdce)
+        ;
+
+        
+    
+    
+            var marker_0e2b8411a388949e613295ec1f6bec98 = L.marker(
+                [39.082893626961074, -94.5668550445458],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_f096d72861007cae7c065ef6a548fffa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0e2b8411a388949e613295ec1f6bec98.setIcon(icon_f096d72861007cae7c065ef6a548fffa);
+        
+    
+        var popup_041f62e58cd626c750c9103fea705730 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_464ad3b2ab4efd9f2db34b516ad1d231 = $(`<div id="html_464ad3b2ab4efd9f2db34b516ad1d231" style="width: 100.0%; height: 100.0%;">Location: Dealer-D177<br>Type: Dealer<br>Allocated Trailers: 8.0</div>`)[0];
+                popup_041f62e58cd626c750c9103fea705730.setContent(html_464ad3b2ab4efd9f2db34b516ad1d231);
+            
+        
+
+        marker_0e2b8411a388949e613295ec1f6bec98.bindPopup(popup_041f62e58cd626c750c9103fea705730)
+        ;
+
+        
+    
+    
+            var marker_5d6e20cc6225c5c755271371641e120c = L.marker(
+                [35.101777535811564, -90.09443948030362],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_04d14785a3622873dc1d1dbbd9c7faa4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5d6e20cc6225c5c755271371641e120c.setIcon(icon_04d14785a3622873dc1d1dbbd9c7faa4);
+        
+    
+        var popup_178319e919d937067bc6059809df55f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cce938301638a1b18746e953cb3b1f6f = $(`<div id="html_cce938301638a1b18746e953cb3b1f6f" style="width: 100.0%; height: 100.0%;">Location: Dealer-D284<br>Type: Dealer<br>Allocated Trailers: 6.0</div>`)[0];
+                popup_178319e919d937067bc6059809df55f4.setContent(html_cce938301638a1b18746e953cb3b1f6f);
+            
+        
+
+        marker_5d6e20cc6225c5c755271371641e120c.bindPopup(popup_178319e919d937067bc6059809df55f4)
+        ;
+
+        
+    
+    
+            var marker_4c0d3954513b1bfcdd2eed4cb51cb354 = L.marker(
+                [34.85942672833154, -82.40757261000392],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_886d0d509bc2b6de8ba70b5d4ce773c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4c0d3954513b1bfcdd2eed4cb51cb354.setIcon(icon_886d0d509bc2b6de8ba70b5d4ce773c0);
+        
+    
+        var popup_59b46e074f91f710cfb6371d7cbb5e7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8bab14c7cfe7b84c2a566b589686487 = $(`<div id="html_d8bab14c7cfe7b84c2a566b589686487" style="width: 100.0%; height: 100.0%;">Location: Dealer-D278<br>Type: Dealer<br>Allocated Trailers: 7.0</div>`)[0];
+                popup_59b46e074f91f710cfb6371d7cbb5e7c.setContent(html_d8bab14c7cfe7b84c2a566b589686487);
+            
+        
+
+        marker_4c0d3954513b1bfcdd2eed4cb51cb354.bindPopup(popup_59b46e074f91f710cfb6371d7cbb5e7c)
+        ;
+
+        
+    
+    
+            var marker_b6bb3fed7a747e555424b9b4add13f3e = L.marker(
+                [37.82047443573086, -121.27609086814498],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_a6a7506390844d3b3aa274a1645c92a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b6bb3fed7a747e555424b9b4add13f3e.setIcon(icon_a6a7506390844d3b3aa274a1645c92a5);
+        
+    
+        var popup_2f17d805707cebc8fb8f023296d8c884 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9970ac17cfdb51f9766efef6a01b05e = $(`<div id="html_c9970ac17cfdb51f9766efef6a01b05e" style="width: 100.0%; height: 100.0%;">Location: Dealer-D349<br>Type: Dealer<br>Allocated Trailers: 7.0</div>`)[0];
+                popup_2f17d805707cebc8fb8f023296d8c884.setContent(html_c9970ac17cfdb51f9766efef6a01b05e);
+            
+        
+
+        marker_b6bb3fed7a747e555424b9b4add13f3e.bindPopup(popup_2f17d805707cebc8fb8f023296d8c884)
+        ;
+
+        
+    
+    
+            var marker_29455cceeb4ecdeec860f3bdfa0fcd6c = L.marker(
+                [36.10249632134082, -86.78000518760335],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_cb5c47ee99677702aa7598556b3f6b3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_29455cceeb4ecdeec860f3bdfa0fcd6c.setIcon(icon_cb5c47ee99677702aa7598556b3f6b3e);
+        
+    
+        var popup_e34904063a58824089474f6776e42d32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7eca1c3ee0ba12a13e06a97ead4b75a2 = $(`<div id="html_7eca1c3ee0ba12a13e06a97ead4b75a2" style="width: 100.0%; height: 100.0%;">Location: Dealer-D155<br>Type: Dealer<br>Allocated Trailers: 7.0</div>`)[0];
+                popup_e34904063a58824089474f6776e42d32.setContent(html_7eca1c3ee0ba12a13e06a97ead4b75a2);
+            
+        
+
+        marker_29455cceeb4ecdeec860f3bdfa0fcd6c.bindPopup(popup_e34904063a58824089474f6776e42d32)
+        ;
+
+        
+    
+    
+            var marker_f84c9fa45b701e2bca614bffb9b1c073 = L.marker(
+                [43.04286316073969, -85.6546340982317],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_2bb65c8e4b75a4157f6562d1337b8cee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f84c9fa45b701e2bca614bffb9b1c073.setIcon(icon_2bb65c8e4b75a4157f6562d1337b8cee);
+        
+    
+        var popup_95d72b408f61d14bfffc9d572aa8283d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91997a24f0893f0dbbdcaaeb336e7631 = $(`<div id="html_91997a24f0893f0dbbdcaaeb336e7631" style="width: 100.0%; height: 100.0%;">Location: Dealer-D68<br>Type: Dealer<br>Allocated Trailers: 7.0</div>`)[0];
+                popup_95d72b408f61d14bfffc9d572aa8283d.setContent(html_91997a24f0893f0dbbdcaaeb336e7631);
+            
+        
+
+        marker_f84c9fa45b701e2bca614bffb9b1c073.bindPopup(popup_95d72b408f61d14bfffc9d572aa8283d)
+        ;
+
+        
+    
+    
+            var marker_3f50b1856f98c6fd9e88f515c7595df3 = L.marker(
+                [41.35460009343725, -81.51017383093135],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_2fffe974f0c23ee36cacce13c9fd224e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3f50b1856f98c6fd9e88f515c7595df3.setIcon(icon_2fffe974f0c23ee36cacce13c9fd224e);
+        
+    
+        var popup_dc2ff56d5a73fe5868d8bce56fc5420c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ca1a4d479c877a8b9132567558062d4 = $(`<div id="html_8ca1a4d479c877a8b9132567558062d4" style="width: 100.0%; height: 100.0%;">Location: Dealer-D53<br>Type: Dealer<br>Allocated Trailers: 6.0</div>`)[0];
+                popup_dc2ff56d5a73fe5868d8bce56fc5420c.setContent(html_8ca1a4d479c877a8b9132567558062d4);
+            
+        
+
+        marker_3f50b1856f98c6fd9e88f515c7595df3.bindPopup(popup_dc2ff56d5a73fe5868d8bce56fc5420c)
+        ;
+
+        
+    
+    
+            var marker_ed96fad4429f5e1c6fc9636a03746d86 = L.marker(
+                [39.17922107583599, -76.56888139841108],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_dd0e9cc9f475a27bf9f2e5b665ec15b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ed96fad4429f5e1c6fc9636a03746d86.setIcon(icon_dd0e9cc9f475a27bf9f2e5b665ec15b9);
+        
+    
+        var popup_581c1a8e4a4c3b83b638233d0c74b723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32fbcd40350f3d183a6a8fd4103b69b0 = $(`<div id="html_32fbcd40350f3d183a6a8fd4103b69b0" style="width: 100.0%; height: 100.0%;">Location: Dealer-D103<br>Type: Dealer<br>Allocated Trailers: 6.0</div>`)[0];
+                popup_581c1a8e4a4c3b83b638233d0c74b723.setContent(html_32fbcd40350f3d183a6a8fd4103b69b0);
+            
+        
+
+        marker_ed96fad4429f5e1c6fc9636a03746d86.bindPopup(popup_581c1a8e4a4c3b83b638233d0c74b723)
+        ;
+
+        
+    
+    
+            var marker_098badfb6aa367cb70cb8754a51b4aa4 = L.marker(
+                [37.69410499658918, -122.17164170338108],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_81c841415a3a610cd22d3d9f70c1013e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_098badfb6aa367cb70cb8754a51b4aa4.setIcon(icon_81c841415a3a610cd22d3d9f70c1013e);
+        
+    
+        var popup_25f07f9da0a479b619626038fc903403 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93b582add77275ae8c50ee3938aee6cd = $(`<div id="html_93b582add77275ae8c50ee3938aee6cd" style="width: 100.0%; height: 100.0%;">Location: Dealer-D126<br>Type: Dealer<br>Allocated Trailers: 6.0</div>`)[0];
+                popup_25f07f9da0a479b619626038fc903403.setContent(html_93b582add77275ae8c50ee3938aee6cd);
+            
+        
+
+        marker_098badfb6aa367cb70cb8754a51b4aa4.bindPopup(popup_25f07f9da0a479b619626038fc903403)
+        ;
+
+        
+    
+    
+            var marker_ec7ed2044c2b9e6c8f27ac26f762ddb8 = L.marker(
+                [39.148584872052176, -84.55178250869487],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_fabd87a35e5ea269745edf334bba1404 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ec7ed2044c2b9e6c8f27ac26f762ddb8.setIcon(icon_fabd87a35e5ea269745edf334bba1404);
+        
+    
+        var popup_553d9d6934e84385b508bb215fb959d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db9d34acac33a17fafc905043c487af4 = $(`<div id="html_db9d34acac33a17fafc905043c487af4" style="width: 100.0%; height: 100.0%;">Location: Dealer-D393<br>Type: Dealer<br>Allocated Trailers: 6.0</div>`)[0];
+                popup_553d9d6934e84385b508bb215fb959d3.setContent(html_db9d34acac33a17fafc905043c487af4);
+            
+        
+
+        marker_ec7ed2044c2b9e6c8f27ac26f762ddb8.bindPopup(popup_553d9d6934e84385b508bb215fb959d3)
+        ;
+
+        
+    
+    
+            var marker_ee7b815d64e2e20754b9f168d78e9300 = L.marker(
+                [28.099589153311943, -81.89691454330705],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_fd4bccc597f7352eeafd1598d6e3053b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee7b815d64e2e20754b9f168d78e9300.setIcon(icon_fd4bccc597f7352eeafd1598d6e3053b);
+        
+    
+        var popup_35e09f82344dafc89e6cd43b2c78462f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1b82d9c12d7df5f3e08a5b035814554 = $(`<div id="html_f1b82d9c12d7df5f3e08a5b035814554" style="width: 100.0%; height: 100.0%;">Location: Dealer-D473<br>Type: Dealer<br>Allocated Trailers: 4.0</div>`)[0];
+                popup_35e09f82344dafc89e6cd43b2c78462f.setContent(html_f1b82d9c12d7df5f3e08a5b035814554);
+            
+        
+
+        marker_ee7b815d64e2e20754b9f168d78e9300.bindPopup(popup_35e09f82344dafc89e6cd43b2c78462f)
+        ;
+
+        
+    
+    
+            var marker_0ad8defd2c275430f048e5b41e4a8c79 = L.marker(
+                [40.69991944348441, -111.81314863176188],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_5dc0257972fb2c07d3287e7e44d19630 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cloud",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0ad8defd2c275430f048e5b41e4a8c79.setIcon(icon_5dc0257972fb2c07d3287e7e44d19630);
+        
+    
+        var popup_21220668a7772754e8d970e742f17b32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01efcd53efe7acd617c75357c5f2c802 = $(`<div id="html_01efcd53efe7acd617c75357c5f2c802" style="width: 100.0%; height: 100.0%;">Location: Dealer-D188<br>Type: Dealer<br>Allocated Trailers: 6.0</div>`)[0];
+                popup_21220668a7772754e8d970e742f17b32.setContent(html_01efcd53efe7acd617c75357c5f2c802);
+            
+        
+
+        marker_0ad8defd2c275430f048e5b41e4a8c79.bindPopup(popup_21220668a7772754e8d970e742f17b32)
+        ;
+
+        
+    
+    
+            var marker_fa4ea861f3105aad9b53f08202395285 = L.marker(
+                [43.6427914, -79.3957904],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_800d2eb3cb640f4072f7f6d959631631 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fa4ea861f3105aad9b53f08202395285.setIcon(icon_800d2eb3cb640f4072f7f6d959631631);
+        
+    
+        var popup_99ead7f6666d558fb940125f71d52da6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dd6c635f8707155a2f9f72c11c666b0 = $(`<div id="html_0dd6c635f8707155a2f9f72c11c666b0" style="width: 100.0%; height: 100.0%;">City Center: The Well</div>`)[0];
+                popup_99ead7f6666d558fb940125f71d52da6.setContent(html_0dd6c635f8707155a2f9f72c11c666b0);
+            
+        
+
+        marker_fa4ea861f3105aad9b53f08202395285.bindPopup(popup_99ead7f6666d558fb940125f71d52da6)
+        ;
+
+        
+    
+    
+            var marker_a925e8403249166c1aad38f206983e61 = L.marker(
+                [33.8380361, -84.3799806],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_d62b68b29673c4b0a6e6281af812fe94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a925e8403249166c1aad38f206983e61.setIcon(icon_d62b68b29673c4b0a6e6281af812fe94);
+        
+    
+        var popup_2a00e0560a188032b2e045c5fab3f5d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4906d1646ac9a8f1d77176b1219488a8 = $(`<div id="html_4906d1646ac9a8f1d77176b1219488a8" style="width: 100.0%; height: 100.0%;">City Center: Buckhead Village</div>`)[0];
+                popup_2a00e0560a188032b2e045c5fab3f5d0.setContent(html_4906d1646ac9a8f1d77176b1219488a8);
+            
+        
+
+        marker_a925e8403249166c1aad38f206983e61.bindPopup(popup_2a00e0560a188032b2e045c5fab3f5d0)
+        ;
+
+        
+    
+    
+            var marker_1f1dab98b52397f56c075abe1ee0ef26 = L.marker(
+                [32.7812588, -96.8008945],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_c9c590b52cb06a104b314f14c521c122 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1f1dab98b52397f56c075abe1ee0ef26.setIcon(icon_c9c590b52cb06a104b314f14c521c122);
+        
+    
+        var popup_3ded661d10c0b51ec9ef23e1236af474 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8dfa4d09077cc670b49011fd4a197d2e = $(`<div id="html_8dfa4d09077cc670b49011fd4a197d2e" style="width: 100.0%; height: 100.0%;">City Center: Downtown Dallas, Inc.</div>`)[0];
+                popup_3ded661d10c0b51ec9ef23e1236af474.setContent(html_8dfa4d09077cc670b49011fd4a197d2e);
+            
+        
+
+        marker_1f1dab98b52397f56c075abe1ee0ef26.bindPopup(popup_3ded661d10c0b51ec9ef23e1236af474)
+        ;
+
+        
+    
+    
+            var marker_e2a63da988120f7b65cbed2f453ce3f3 = L.marker(
+                [34.0352439, -118.2522071],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_7f1322eecbad6f325c88699f31724e4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e2a63da988120f7b65cbed2f453ce3f3.setIcon(icon_7f1322eecbad6f325c88699f31724e4f);
+        
+    
+        var popup_1fed44543434926d2a91eb70d576d4d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_626a8de31d681d6cf7eb44d527d32bde = $(`<div id="html_626a8de31d681d6cf7eb44d527d32bde" style="width: 100.0%; height: 100.0%;">City Center: Fashion District</div>`)[0];
+                popup_1fed44543434926d2a91eb70d576d4d6.setContent(html_626a8de31d681d6cf7eb44d527d32bde);
+            
+        
+
+        marker_e2a63da988120f7b65cbed2f453ce3f3.bindPopup(popup_1fed44543434926d2a91eb70d576d4d6)
+        ;
+
+        
+    
+    
+            var marker_16853743f8fd66f66a35719f99f75ec6 = L.marker(
+                [29.7549596, -95.3620869],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_ad9da9fcd7a95f1c678e2fe7175eefa6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_16853743f8fd66f66a35719f99f75ec6.setIcon(icon_ad9da9fcd7a95f1c678e2fe7175eefa6);
+        
+    
+        var popup_7c984050102a2d70816b909c627e955a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d8b3fae76c18269799a90e4e641854e = $(`<div id="html_3d8b3fae76c18269799a90e4e641854e" style="width: 100.0%; height: 100.0%;">City Center: The Highlight at Houston Center</div>`)[0];
+                popup_7c984050102a2d70816b909c627e955a.setContent(html_3d8b3fae76c18269799a90e4e641854e);
+            
+        
+
+        marker_16853743f8fd66f66a35719f99f75ec6.bindPopup(popup_7c984050102a2d70816b909c627e955a)
+        ;
+
+        
+    
+    
+            var marker_9d1287258f2ae615e2e9881c89e8b52d = L.marker(
+                [42.331704, -83.0470684],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_52023e29fcf655a6779880bfc3c65c62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9d1287258f2ae615e2e9881c89e8b52d.setIcon(icon_52023e29fcf655a6779880bfc3c65c62);
+        
+    
+        var popup_b3312b0ef144cce861d9feb7fd64bdb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_782e85790ddd43acc4504bd302df8098 = $(`<div id="html_782e85790ddd43acc4504bd302df8098" style="width: 100.0%; height: 100.0%;">City Center: Downtown Detroit</div>`)[0];
+                popup_b3312b0ef144cce861d9feb7fd64bdb3.setContent(html_782e85790ddd43acc4504bd302df8098);
+            
+        
+
+        marker_9d1287258f2ae615e2e9881c89e8b52d.bindPopup(popup_b3312b0ef144cce861d9feb7fd64bdb3)
+        ;
+
+        
+    
+    
+            var marker_f104eacb10b2e29fdc36f2a09a8f4e6f = L.marker(
+                [40.2597575, -76.8827711],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_081df6402a4d78062d99339ebf46ca79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f104eacb10b2e29fdc36f2a09a8f4e6f.setIcon(icon_081df6402a4d78062d99339ebf46ca79);
+        
+    
+        var popup_2787a69318be8d9fffeff8554fbb9583 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5740660a8ee1f76b4870038ec297a9d = $(`<div id="html_c5740660a8ee1f76b4870038ec297a9d" style="width: 100.0%; height: 100.0%;">City Center: Harrisburg Downtown Improvement District</div>`)[0];
+                popup_2787a69318be8d9fffeff8554fbb9583.setContent(html_c5740660a8ee1f76b4870038ec297a9d);
+            
+        
+
+        marker_f104eacb10b2e29fdc36f2a09a8f4e6f.bindPopup(popup_2787a69318be8d9fffeff8554fbb9583)
+        ;
+
+        
+    
+    
+            var marker_83d37f7be74c10474cb5eed03d137c86 = L.marker(
+                [36.2993115, -76.2185687],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_e47ac5f208a940619a203c7cf9d1da46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_83d37f7be74c10474cb5eed03d137c86.setIcon(icon_e47ac5f208a940619a203c7cf9d1da46);
+        
+    
+        var popup_bda2d12f849df4a5b8b0ba2a2d6bb5b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8a85ae8aa0d0763f5f9f98203643350 = $(`<div id="html_d8a85ae8aa0d0763f5f9f98203643350" style="width: 100.0%; height: 100.0%;">City Center: Elizabeth City Downtown Inc</div>`)[0];
+                popup_bda2d12f849df4a5b8b0ba2a2d6bb5b7.setContent(html_d8a85ae8aa0d0763f5f9f98203643350);
+            
+        
+
+        marker_83d37f7be74c10474cb5eed03d137c86.bindPopup(popup_bda2d12f849df4a5b8b0ba2a2d6bb5b7)
+        ;
+
+        
+    
+    
+            var marker_ee25c47a601bcf1ab53a6417085c7010 = L.marker(
+                [33.4517174, -112.0744643],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_03139f310dbff499e6333818c79a0b65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ee25c47a601bcf1ab53a6417085c7010.setIcon(icon_03139f310dbff499e6333818c79a0b65);
+        
+    
+        var popup_164046ecd2cfc9ec0c6f5cdffc8340f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_780be6e4cf073efff0ec4dc33083f511 = $(`<div id="html_780be6e4cf073efff0ec4dc33083f511" style="width: 100.0%; height: 100.0%;">City Center: Downtown Phoenix</div>`)[0];
+                popup_164046ecd2cfc9ec0c6f5cdffc8340f4.setContent(html_780be6e4cf073efff0ec4dc33083f511);
+            
+        
+
+        marker_ee25c47a601bcf1ab53a6417085c7010.bindPopup(popup_164046ecd2cfc9ec0c6f5cdffc8340f4)
+        ;
+
+        
+    
+    
+            var marker_46a23dc21e9f895681b017fbd99e3e7b = L.marker(
+                [39.7651378, -86.1588703],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_22dbd3e90a610219a9c869909abb2732 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_46a23dc21e9f895681b017fbd99e3e7b.setIcon(icon_22dbd3e90a610219a9c869909abb2732);
+        
+    
+        var popup_c8f198d4fc04c479a198515d78287ff2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad36f440b7c156da320ed95c6f8b1e70 = $(`<div id="html_ad36f440b7c156da320ed95c6f8b1e70" style="width: 100.0%; height: 100.0%;">City Center: Circle Centre Mall</div>`)[0];
+                popup_c8f198d4fc04c479a198515d78287ff2.setContent(html_ad36f440b7c156da320ed95c6f8b1e70);
+            
+        
+
+        marker_46a23dc21e9f895681b017fbd99e3e7b.bindPopup(popup_c8f198d4fc04c479a198515d78287ff2)
+        ;
+
+        
+    
+    
+            var marker_69d54c0f7a4935c220bc080cad05b42d = L.marker(
+                [40.6013169, -75.4745791],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_373715aea20f683a5ace4a011ec262c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_69d54c0f7a4935c220bc080cad05b42d.setIcon(icon_373715aea20f683a5ace4a011ec262c2);
+        
+    
+        var popup_b623094f550e7de9a24d0d2d76793dc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32d97ab404486ef306696b88076f90c9 = $(`<div id="html_32d97ab404486ef306696b88076f90c9" style="width: 100.0%; height: 100.0%;">City Center: Downtown Allentown</div>`)[0];
+                popup_b623094f550e7de9a24d0d2d76793dc1.setContent(html_32d97ab404486ef306696b88076f90c9);
+            
+        
+
+        marker_69d54c0f7a4935c220bc080cad05b42d.bindPopup(popup_b623094f550e7de9a24d0d2d76793dc1)
+        ;
+
+        
+    
+    
+            var marker_0bcf25fb6497c7bec4d4d3e86cd33388 = L.marker(
+                [41.5278977, -88.0834891],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_69c4dd18418089696848acde6ede0812 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0bcf25fb6497c7bec4d4d3e86cd33388.setIcon(icon_69c4dd18418089696848acde6ede0812);
+        
+    
+        var popup_37a6971bed185c280f184067f60536e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bec877ce168cd2afe09a3b515a06b849 = $(`<div id="html_bec877ce168cd2afe09a3b515a06b849" style="width: 100.0%; height: 100.0%;">City Center: Joliet City Center Partnership</div>`)[0];
+                popup_37a6971bed185c280f184067f60536e1.setContent(html_bec877ce168cd2afe09a3b515a06b849);
+            
+        
+
+        marker_0bcf25fb6497c7bec4d4d3e86cd33388.bindPopup(popup_37a6971bed185c280f184067f60536e1)
+        ;
+
+        
+    
+    
+            var marker_26735d49f17d2d4842256be82c08fd59 = L.marker(
+                [39.9516265, -75.1553179],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_d9136b351d0f48c21edc0f0c4fb6ee04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_26735d49f17d2d4842256be82c08fd59.setIcon(icon_d9136b351d0f48c21edc0f0c4fb6ee04);
+        
+    
+        var popup_625ad01b5fd1047b9d6c31021eac1278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21df3a306f675a4001f14f7ac4d27b2d = $(`<div id="html_21df3a306f675a4001f14f7ac4d27b2d" style="width: 100.0%; height: 100.0%;">City Center: Market Street Shopping District</div>`)[0];
+                popup_625ad01b5fd1047b9d6c31021eac1278.setContent(html_21df3a306f675a4001f14f7ac4d27b2d);
+            
+        
+
+        marker_26735d49f17d2d4842256be82c08fd59.bindPopup(popup_625ad01b5fd1047b9d6c31021eac1278)
+        ;
+
+        
+    
+    
+            var marker_dadb3e752071bdfbe8b59d126d69f61d = L.marker(
+                [39.9625434, -82.9979746],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_6b1ef88c6626b91f447bc5db6309278b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dadb3e752071bdfbe8b59d126d69f61d.setIcon(icon_6b1ef88c6626b91f447bc5db6309278b);
+        
+    
+        var popup_62bffa47feebc509137a844b7ab148fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88f005954b3e3ea0740366cff14c0607 = $(`<div id="html_88f005954b3e3ea0740366cff14c0607" style="width: 100.0%; height: 100.0%;">City Center: Downtown</div>`)[0];
+                popup_62bffa47feebc509137a844b7ab148fa.setContent(html_88f005954b3e3ea0740366cff14c0607);
+            
+        
+
+        marker_dadb3e752071bdfbe8b59d126d69f61d.bindPopup(popup_62bffa47feebc509137a844b7ab148fa)
+        ;
+
+        
+    
+    
+            var marker_3f6403ed339b8560cd80b121e5ea03db = L.marker(
+                [32.9330735, -97.3312005],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_87defc7a7a5a48b61b2236816659849a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3f6403ed339b8560cd80b121e5ea03db.setIcon(icon_87defc7a7a5a48b61b2236816659849a);
+        
+    
+        var popup_847faedf178c6065a548367d343a1807 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d84ebc23b1d657ac397ce801b8e9e3d = $(`<div id="html_2d84ebc23b1d657ac397ce801b8e9e3d" style="width: 100.0%; height: 100.0%;">City Center: Fort Worth Design District</div>`)[0];
+                popup_847faedf178c6065a548367d343a1807.setContent(html_2d84ebc23b1d657ac397ce801b8e9e3d);
+            
+        
+
+        marker_3f6403ed339b8560cd80b121e5ea03db.bindPopup(popup_847faedf178c6065a548367d343a1807)
+        ;
+
+        
+    
+    
+            var marker_4c524d2498702a6192e599136641baba = L.marker(
+                [41.8756719, -87.6243469],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_47ab066b684193f13ab16266a8daf6ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4c524d2498702a6192e599136641baba.setIcon(icon_47ab066b684193f13ab16266a8daf6ed);
+        
+    
+        var popup_389842d98624a746005baac4a2d60990 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57240d0b2b53f0aea1314f8caae16623 = $(`<div id="html_57240d0b2b53f0aea1314f8caae16623" style="width: 100.0%; height: 100.0%;">City Center: Downtown Chicago</div>`)[0];
+                popup_389842d98624a746005baac4a2d60990.setContent(html_57240d0b2b53f0aea1314f8caae16623);
+            
+        
+
+        marker_4c524d2498702a6192e599136641baba.bindPopup(popup_389842d98624a746005baac4a2d60990)
+        ;
+
+        
+    
+    
+            var marker_50b781effdbb06712da59a5f914ee5bd = L.marker(
+                [35.2252808, -80.8421014],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_56a137a90ad4ade08da6dc41e2c508a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_50b781effdbb06712da59a5f914ee5bd.setIcon(icon_56a137a90ad4ade08da6dc41e2c508a2);
+        
+    
+        var popup_24238a8ee7baf39ae1c2d4635af82b47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17165637f13f06429bd2ea542bf41b3a = $(`<div id="html_17165637f13f06429bd2ea542bf41b3a" style="width: 100.0%; height: 100.0%;">City Center: Queen City Quarter</div>`)[0];
+                popup_24238a8ee7baf39ae1c2d4635af82b47.setContent(html_17165637f13f06429bd2ea542bf41b3a);
+            
+        
+
+        marker_50b781effdbb06712da59a5f914ee5bd.bindPopup(popup_24238a8ee7baf39ae1c2d4635af82b47)
+        ;
+
+        
+    
+    
+            var marker_58a82a99d9ba3a83d9222a18005ad107 = L.marker(
+                [43.0450242, -87.9158751],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_21fb733f7ff9a731afb3c32246da8078 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_58a82a99d9ba3a83d9222a18005ad107.setIcon(icon_21fb733f7ff9a731afb3c32246da8078);
+        
+    
+        var popup_290d5df8c954f8640935e350b6f0e0da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8935b9737a17230bebf0cdd42ded32c7 = $(`<div id="html_8935b9737a17230bebf0cdd42ded32c7" style="width: 100.0%; height: 100.0%;">City Center: Deer District</div>`)[0];
+                popup_290d5df8c954f8640935e350b6f0e0da.setContent(html_8935b9737a17230bebf0cdd42ded32c7);
+            
+        
+
+        marker_58a82a99d9ba3a83d9222a18005ad107.bindPopup(popup_290d5df8c954f8640935e350b6f0e0da)
+        ;
+
+        
+    
+    
+            var marker_a752ee474b322a1ea9bdd6d2869fbf7a = L.marker(
+                [39.0877568, -94.5890335],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_442ca652b6413fe45c29c9ab8e472e70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a752ee474b322a1ea9bdd6d2869fbf7a.setIcon(icon_442ca652b6413fe45c29c9ab8e472e70);
+        
+    
+        var popup_6747b89b0933cb5270ad891ddbcac8c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c955900b28686a32d43d8738c8b77d6 = $(`<div id="html_3c955900b28686a32d43d8738c8b77d6" style="width: 100.0%; height: 100.0%;">City Center: Downtown Kansas City</div>`)[0];
+                popup_6747b89b0933cb5270ad891ddbcac8c0.setContent(html_3c955900b28686a32d43d8738c8b77d6);
+            
+        
+
+        marker_a752ee474b322a1ea9bdd6d2869fbf7a.bindPopup(popup_6747b89b0933cb5270ad891ddbcac8c0)
+        ;
+
+        
+    
+    
+            var marker_d8dfc1434d10b88f86111980b6348c54 = L.marker(
+                [35.1483137, -90.0512443],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_d094483e5d8ab9ea41bd5a37f702af68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d8dfc1434d10b88f86111980b6348c54.setIcon(icon_d094483e5d8ab9ea41bd5a37f702af68);
+        
+    
+        var popup_dde83f6ff13b6d4120f5a56fbff961d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fa732111be44450131985b671f90a99 = $(`<div id="html_3fa732111be44450131985b671f90a99" style="width: 100.0%; height: 100.0%;">City Center: Downtown Memphis Commission</div>`)[0];
+                popup_dde83f6ff13b6d4120f5a56fbff961d0.setContent(html_3fa732111be44450131985b671f90a99);
+            
+        
+
+        marker_d8dfc1434d10b88f86111980b6348c54.bindPopup(popup_dde83f6ff13b6d4120f5a56fbff961d0)
+        ;
+
+        
+    
+    
+            var marker_94f18676808e9ec0caab43821c5f4855 = L.marker(
+                [34.8466748, -82.4112929],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_ecb99a935e50fee6762332fba8a332b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_94f18676808e9ec0caab43821c5f4855.setIcon(icon_ecb99a935e50fee6762332fba8a332b6);
+        
+    
+        var popup_4b006b3421f9c718f79869a47bec4f8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49ce816ac5f1c870c2917b2c32ab4c35 = $(`<div id="html_49ce816ac5f1c870c2917b2c32ab4c35" style="width: 100.0%; height: 100.0%;">City Center: West End Commercial Historic District (Greenville, South Carolina)</div>`)[0];
+                popup_4b006b3421f9c718f79869a47bec4f8a.setContent(html_49ce816ac5f1c870c2917b2c32ab4c35);
+            
+        
+
+        marker_94f18676808e9ec0caab43821c5f4855.bindPopup(popup_4b006b3421f9c718f79869a47bec4f8a)
+        ;
+
+        
+    
+    
+            var marker_127351693744647e8dc7f49b506eca59 = L.marker(
+                [37.9544795, -121.287361],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_9199201e1fc28f1b60a82625fade8597 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_127351693744647e8dc7f49b506eca59.setIcon(icon_9199201e1fc28f1b60a82625fade8597);
+        
+    
+        var popup_a9fd231912a87960e43acc0623ad348f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dcd018c805fbb5d78163562119f54ce = $(`<div id="html_3dcd018c805fbb5d78163562119f54ce" style="width: 100.0%; height: 100.0%;">City Center: Downtown Stockton Alliance</div>`)[0];
+                popup_a9fd231912a87960e43acc0623ad348f.setContent(html_3dcd018c805fbb5d78163562119f54ce);
+            
+        
+
+        marker_127351693744647e8dc7f49b506eca59.bindPopup(popup_a9fd231912a87960e43acc0623ad348f)
+        ;
+
+        
+    
+    
+            var marker_82ba090716ad856278d3e0eeeaffe844 = L.marker(
+                [36.1602635, -86.7781131],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_22c25e4f9e4158056cfad907befc98a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_82ba090716ad856278d3e0eeeaffe844.setIcon(icon_22c25e4f9e4158056cfad907befc98a1);
+        
+    
+        var popup_39f88a835e160e25c03b330314ec80ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50dc9eb2600487db5ca7e3310c1f8538 = $(`<div id="html_50dc9eb2600487db5ca7e3310c1f8538" style="width: 100.0%; height: 100.0%;">City Center: Historic Commercial Structure - Broadway Historic District</div>`)[0];
+                popup_39f88a835e160e25c03b330314ec80ef.setContent(html_50dc9eb2600487db5ca7e3310c1f8538);
+            
+        
+
+        marker_82ba090716ad856278d3e0eeeaffe844.bindPopup(popup_39f88a835e160e25c03b330314ec80ef)
+        ;
+
+        
+    
+    
+            var marker_1228d3ab0d92bfa305a133a655d32a30 = L.marker(
+                [42.9597268, -85.6717405],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_ed1be9119fb23fba41b1abb9fc9ce793 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1228d3ab0d92bfa305a133a655d32a30.setIcon(icon_ed1be9119fb23fba41b1abb9fc9ce793);
+        
+    
+        var popup_e1551a71e8ed8eac7e8260709af9d0be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb5b8e1ee2346db4b73feca59231c0f7 = $(`<div id="html_eb5b8e1ee2346db4b73feca59231c0f7" style="width: 100.0%; height: 100.0%;">City Center: Downtown</div>`)[0];
+                popup_e1551a71e8ed8eac7e8260709af9d0be.setContent(html_eb5b8e1ee2346db4b73feca59231c0f7);
+            
+        
+
+        marker_1228d3ab0d92bfa305a133a655d32a30.bindPopup(popup_e1551a71e8ed8eac7e8260709af9d0be)
+        ;
+
+        
+    
+    
+            var marker_92bfd7805fbe4e6a5e37c2dec287f7ee = L.marker(
+                [41.5047834, -81.6856808],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_f90ce1c46d3f774e6b6ef98e87467022 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_92bfd7805fbe4e6a5e37c2dec287f7ee.setIcon(icon_f90ce1c46d3f774e6b6ef98e87467022);
+        
+    
+        var popup_fe1447c9d2df473cc6c8f315a0479bc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38d925970d2d090dc32ba23947c484bc = $(`<div id="html_38d925970d2d090dc32ba23947c484bc" style="width: 100.0%; height: 100.0%;">City Center: Downtown</div>`)[0];
+                popup_fe1447c9d2df473cc6c8f315a0479bc6.setContent(html_38d925970d2d090dc32ba23947c484bc);
+            
+        
+
+        marker_92bfd7805fbe4e6a5e37c2dec287f7ee.bindPopup(popup_fe1447c9d2df473cc6c8f315a0479bc6)
+        ;
+
+        
+    
+    
+            var marker_7e3570ff928250e258fc848d1f930fc3 = L.marker(
+                [39.2904278, -76.6139017],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_43d923a012d9bc3603cdbe3af9f2db7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7e3570ff928250e258fc848d1f930fc3.setIcon(icon_43d923a012d9bc3603cdbe3af9f2db7e);
+        
+    
+        var popup_a7d5820f51cbf9a31be8d1d22ab08939 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f164b7b7a4d30acb20bebcd6760d560 = $(`<div id="html_1f164b7b7a4d30acb20bebcd6760d560" style="width: 100.0%; height: 100.0%;">City Center: Downtown</div>`)[0];
+                popup_a7d5820f51cbf9a31be8d1d22ab08939.setContent(html_1f164b7b7a4d30acb20bebcd6760d560);
+            
+        
+
+        marker_7e3570ff928250e258fc848d1f930fc3.bindPopup(popup_a7d5820f51cbf9a31be8d1d22ab08939)
+        ;
+
+        
+    
+    
+            var marker_35d843e3d7af7c50e92d339e58a33ebb = L.marker(
+                [37.7936658, -122.3964729],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_d18c4e3983298370dca33f66359196ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_35d843e3d7af7c50e92d339e58a33ebb.setIcon(icon_d18c4e3983298370dca33f66359196ed);
+        
+    
+        var popup_4763fc374e5d672b507487e64ec76f7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b98585fbf9bca3183ff55373dd9586f = $(`<div id="html_1b98585fbf9bca3183ff55373dd9586f" style="width: 100.0%; height: 100.0%;">City Center: Financial District</div>`)[0];
+                popup_4763fc374e5d672b507487e64ec76f7a.setContent(html_1b98585fbf9bca3183ff55373dd9586f);
+            
+        
+
+        marker_35d843e3d7af7c50e92d339e58a33ebb.bindPopup(popup_4763fc374e5d672b507487e64ec76f7a)
+        ;
+
+        
+    
+    
+            var marker_48b0300436319f56d9d3440652181d1a = L.marker(
+                [39.1007249, -84.5091102],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_5f6626a37232bab2e1ea7c45cfc4d3c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_48b0300436319f56d9d3440652181d1a.setIcon(icon_5f6626a37232bab2e1ea7c45cfc4d3c5);
+        
+    
+        var popup_870579637ab47d9517ba3ecd8e7c462d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b674b43ec51d3a1d10a04d28c8458034 = $(`<div id="html_b674b43ec51d3a1d10a04d28c8458034" style="width: 100.0%; height: 100.0%;">City Center: Central Business District</div>`)[0];
+                popup_870579637ab47d9517ba3ecd8e7c462d.setContent(html_b674b43ec51d3a1d10a04d28c8458034);
+            
+        
+
+        marker_48b0300436319f56d9d3440652181d1a.bindPopup(popup_870579637ab47d9517ba3ecd8e7c462d)
+        ;
+
+        
+    
+    
+            var marker_6830b03f294f67bd24d5ef0ae592883d = L.marker(
+                [28.0418887, -81.9575729],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_544ab3762d4c80926f993fa671be28ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6830b03f294f67bd24d5ef0ae592883d.setIcon(icon_544ab3762d4c80926f993fa671be28ff);
+        
+    
+        var popup_78e57c3753f6a3ee197387122b518580 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_857d3bd5b085dab961cd705376747ef7 = $(`<div id="html_857d3bd5b085dab961cd705376747ef7" style="width: 100.0%; height: 100.0%;">City Center: Downtown</div>`)[0];
+                popup_78e57c3753f6a3ee197387122b518580.setContent(html_857d3bd5b085dab961cd705376747ef7);
+            
+        
+
+        marker_6830b03f294f67bd24d5ef0ae592883d.bindPopup(popup_78e57c3753f6a3ee197387122b518580)
+        ;
+
+        
+    
+    
+            var marker_57ffd4e1f9ada2dc4a8ddf67fe28fefc = L.marker(
+                [40.7628816, -111.896825],
+                {
+}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+            var icon_d1b80a5318e369489aae3ab2b61815b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_57ffd4e1f9ada2dc4a8ddf67fe28fefc.setIcon(icon_d1b80a5318e369489aae3ab2b61815b9);
+        
+    
+        var popup_f23e41cb2d9eb3b315ffdf47e5fbdfc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88ea51e2063eef1ef17a0c9e10561ea5 = $(`<div id="html_88ea51e2063eef1ef17a0c9e10561ea5" style="width: 100.0%; height: 100.0%;">City Center: Downtown</div>`)[0];
+                popup_f23e41cb2d9eb3b315ffdf47e5fbdfc2.setContent(html_88ea51e2063eef1ef17a0c9e10561ea5);
+            
+        
+
+        marker_57ffd4e1f9ada2dc4a8ddf67fe28fefc.bindPopup(popup_f23e41cb2d9eb3b315ffdf47e5fbdfc2)
+        ;
+
+        
+    
+    
+            var poly_line_5958aec5c3732efbc9c0cf94d9d33a5e = L.polyline(
+                [[42.91765396432139, -78.83170749155465], [43.6427914, -79.3957904]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_f07b40fcb34fd011acd053f557a89771 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3301b4ca3af3f478b701cca7e4eff529 = $(`<div id="html_3301b4ca3af3f478b701cca7e4eff529" style="width: 100.0%; height: 100.0%;">Distance: 57.578293168342 miles</div>`)[0];
+                popup_f07b40fcb34fd011acd053f557a89771.setContent(html_3301b4ca3af3f478b701cca7e4eff529);
+            
+        
+
+        poly_line_5958aec5c3732efbc9c0cf94d9d33a5e.bindPopup(popup_f07b40fcb34fd011acd053f557a89771)
+        ;
+
+        
+    
+    
+            var poly_line_eb19d377368a76ec0f9b35e63f477601 = L.polyline(
+                [[33.98744326013268, -84.53308782985376], [33.8380361, -84.3799806]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_1bd04a6719b2498892cfccb42f402671 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b798fdc7e3543392686f4fd47f996b9f = $(`<div id="html_b798fdc7e3543392686f4fd47f996b9f" style="width: 100.0%; height: 100.0%;">Distance: 13.551331408404636 miles</div>`)[0];
+                popup_1bd04a6719b2498892cfccb42f402671.setContent(html_b798fdc7e3543392686f4fd47f996b9f);
+            
+        
+
+        poly_line_eb19d377368a76ec0f9b35e63f477601.bindPopup(popup_1bd04a6719b2498892cfccb42f402671)
+        ;
+
+        
+    
+    
+            var poly_line_3cedd74447981da070e3ea12b1cd0418 = L.polyline(
+                [[32.73189110767988, -96.75973148802224], [32.7812588, -96.8008945]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_d6cb484de38aab43e31e9d5ab26d7c95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5c4527c34302546b67865496798c7a4 = $(`<div id="html_f5c4527c34302546b67865496798c7a4" style="width: 100.0%; height: 100.0%;">Distance: 4.166004000454704 miles</div>`)[0];
+                popup_d6cb484de38aab43e31e9d5ab26d7c95.setContent(html_f5c4527c34302546b67865496798c7a4);
+            
+        
+
+        poly_line_3cedd74447981da070e3ea12b1cd0418.bindPopup(popup_d6cb484de38aab43e31e9d5ab26d7c95)
+        ;
+
+        
+    
+    
+            var poly_line_483d5a920320b1b3707abced2a0c3e3f = L.polyline(
+                [[34.05192270846015, -118.22766257757016], [34.0352439, -118.2522071]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_0b4bc678ac8a16220415e2de556a7a5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbf8c1df2541015718967207ec20f509 = $(`<div id="html_dbf8c1df2541015718967207ec20f509" style="width: 100.0%; height: 100.0%;">Distance: 1.8173174462996784 miles</div>`)[0];
+                popup_0b4bc678ac8a16220415e2de556a7a5e.setContent(html_dbf8c1df2541015718967207ec20f509);
+            
+        
+
+        poly_line_483d5a920320b1b3707abced2a0c3e3f.bindPopup(popup_0b4bc678ac8a16220415e2de556a7a5e)
+        ;
+
+        
+    
+    
+            var poly_line_43853cfad91aaa25b163ad77967e1fe6 = L.polyline(
+                [[29.72565320104319, -95.37486082656858], [29.7549596, -95.3620869]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_e2cfdb8fc52b168488c64a5bf9c82fd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5f53b8ddc1a6bb23bc7b8da4afbd71c = $(`<div id="html_f5f53b8ddc1a6bb23bc7b8da4afbd71c" style="width: 100.0%; height: 100.0%;">Distance: 2.165043940918027 miles</div>`)[0];
+                popup_e2cfdb8fc52b168488c64a5bf9c82fd4.setContent(html_f5f53b8ddc1a6bb23bc7b8da4afbd71c);
+            
+        
+
+        poly_line_43853cfad91aaa25b163ad77967e1fe6.bindPopup(popup_e2cfdb8fc52b168488c64a5bf9c82fd4)
+        ;
+
+        
+    
+    
+            var poly_line_29bc0108c8b082f8225795032ef788ca = L.polyline(
+                [[42.52402715844266, -83.03681336700414], [42.331704, -83.0470684]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_b77614b5148c328f8c4ad104fb43d0e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5da339aa0720e2c4bd7df272fb623ab = $(`<div id="html_d5da339aa0720e2c4bd7df272fb623ab" style="width: 100.0%; height: 100.0%;">Distance: 13.298552834579766 miles</div>`)[0];
+                popup_b77614b5148c328f8c4ad104fb43d0e9.setContent(html_d5da339aa0720e2c4bd7df272fb623ab);
+            
+        
+
+        poly_line_29bc0108c8b082f8225795032ef788ca.bindPopup(popup_b77614b5148c328f8c4ad104fb43d0e9)
+        ;
+
+        
+    
+    
+            var poly_line_aa962e3d263a638debc2a0e4d2fd8e1a = L.polyline(
+                [[40.236217352310064, -76.85024076955122], [40.2597575, -76.8827711]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_ede9ad157457eaeb0cb15bbdda2eed55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93980f37a866a3501fda8f961cce2b98 = $(`<div id="html_93980f37a866a3501fda8f961cce2b98" style="width: 100.0%; height: 100.0%;">Distance: 2.3639795240716563 miles</div>`)[0];
+                popup_ede9ad157457eaeb0cb15bbdda2eed55.setContent(html_93980f37a866a3501fda8f961cce2b98);
+            
+        
+
+        poly_line_aa962e3d263a638debc2a0e4d2fd8e1a.bindPopup(popup_ede9ad157457eaeb0cb15bbdda2eed55)
+        ;
+
+        
+    
+    
+            var poly_line_60eb4a1a9372435331e22eacfc1e7c00 = L.polyline(
+                [[37.303777454057645, -77.61332954821098], [36.2993115, -76.2185687]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_982446196c47d2e4216a8a16d3a5f246 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4be29b52b3957f05d6585cec52ee45a = $(`<div id="html_a4be29b52b3957f05d6585cec52ee45a" style="width: 100.0%; height: 100.0%;">Distance: 103.7805313841241 miles</div>`)[0];
+                popup_982446196c47d2e4216a8a16d3a5f246.setContent(html_a4be29b52b3957f05d6585cec52ee45a);
+            
+        
+
+        poly_line_60eb4a1a9372435331e22eacfc1e7c00.bindPopup(popup_982446196c47d2e4216a8a16d3a5f246)
+        ;
+
+        
+    
+    
+            var poly_line_64638234272144f05e3ad74115d121de = L.polyline(
+                [[33.43423757202693, -112.05667276166366], [33.4517174, -112.0744643]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_6252f945a470144c0845ab4d54753aab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3f2daebb1878baf5d7d04c93586041f = $(`<div id="html_b3f2daebb1878baf5d7d04c93586041f" style="width: 100.0%; height: 100.0%;">Distance: 1.5845524615297102 miles</div>`)[0];
+                popup_6252f945a470144c0845ab4d54753aab.setContent(html_b3f2daebb1878baf5d7d04c93586041f);
+            
+        
+
+        poly_line_64638234272144f05e3ad74115d121de.bindPopup(popup_6252f945a470144c0845ab4d54753aab)
+        ;
+
+        
+    
+    
+            var poly_line_5ba1da8cc9547be594e99a3323e23920 = L.polyline(
+                [[39.75460550744928, -86.15663227835127], [39.7651378, -86.1588703]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_9f4fd18e9f3426849e8edd98fb040baf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ab929e61fe3d8c7496ace585b0cb0fd = $(`<div id="html_1ab929e61fe3d8c7496ace585b0cb0fd" style="width: 100.0%; height: 100.0%;">Distance: 0.7373569053366507 miles</div>`)[0];
+                popup_9f4fd18e9f3426849e8edd98fb040baf.setContent(html_1ab929e61fe3d8c7496ace585b0cb0fd);
+            
+        
+
+        poly_line_5ba1da8cc9547be594e99a3323e23920.bindPopup(popup_9f4fd18e9f3426849e8edd98fb040baf)
+        ;
+
+        
+    
+    
+            var poly_line_3024f4d5ac6e9bbd47a8b611ec55c7fc = L.polyline(
+                [[40.57926360730367, -75.40056314639092], [40.6013169, -75.4745791]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_2a52463751ab3478d70d99c4c4f3bc57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20b1e631312d511eb658a251186e54dc = $(`<div id="html_20b1e631312d511eb658a251186e54dc" style="width: 100.0%; height: 100.0%;">Distance: 4.171721602560607 miles</div>`)[0];
+                popup_2a52463751ab3478d70d99c4c4f3bc57.setContent(html_20b1e631312d511eb658a251186e54dc);
+            
+        
+
+        poly_line_3024f4d5ac6e9bbd47a8b611ec55c7fc.bindPopup(popup_2a52463751ab3478d70d99c4c4f3bc57)
+        ;
+
+        
+    
+    
+            var poly_line_c5e38cddacb4645f7a74db1fd40bf1d4 = L.polyline(
+                [[41.40814397322065, -88.17269378970425], [41.5278977, -88.0834891]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_1247abeaf2629d99f2e3bff1d22078bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65c1f93dab809df119bd45540fb0dae8 = $(`<div id="html_65c1f93dab809df119bd45540fb0dae8" style="width: 100.0%; height: 100.0%;">Distance: 9.475875077626029 miles</div>`)[0];
+                popup_1247abeaf2629d99f2e3bff1d22078bb.setContent(html_65c1f93dab809df119bd45540fb0dae8);
+            
+        
+
+        poly_line_c5e38cddacb4645f7a74db1fd40bf1d4.bindPopup(popup_1247abeaf2629d99f2e3bff1d22078bb)
+        ;
+
+        
+    
+    
+            var poly_line_ba4fd645eb2a4eda06d679e0f0df062e = L.polyline(
+                [[39.943320575642026, -75.24033734435173], [39.9516265, -75.1553179]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_bfbb72a1aa31cedef4baafab3d68af22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eca659bc0eacf1c84f3eab0b345a926 = $(`<div id="html_8eca659bc0eacf1c84f3eab0b345a926" style="width: 100.0%; height: 100.0%;">Distance: 4.539840894608991 miles</div>`)[0];
+                popup_bfbb72a1aa31cedef4baafab3d68af22.setContent(html_8eca659bc0eacf1c84f3eab0b345a926);
+            
+        
+
+        poly_line_ba4fd645eb2a4eda06d679e0f0df062e.bindPopup(popup_bfbb72a1aa31cedef4baafab3d68af22)
+        ;
+
+        
+    
+    
+            var poly_line_a607d2a35bb8fdc2a3be293f22424200 = L.polyline(
+                [[39.85500833863356, -82.90708598121837], [39.9625434, -82.9979746]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_26641053bf4d3d8d0f062cf991d9c267 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_489b1be1ded17c7bccb261cfb799b6c8 = $(`<div id="html_489b1be1ded17c7bccb261cfb799b6c8" style="width: 100.0%; height: 100.0%;">Distance: 8.854837299161117 miles</div>`)[0];
+                popup_26641053bf4d3d8d0f062cf991d9c267.setContent(html_489b1be1ded17c7bccb261cfb799b6c8);
+            
+        
+
+        poly_line_a607d2a35bb8fdc2a3be293f22424200.bindPopup(popup_26641053bf4d3d8d0f062cf991d9c267)
+        ;
+
+        
+    
+    
+            var poly_line_e9ee1ede31d0915d0e4919c9aa036624 = L.polyline(
+                [[32.77428926429145, -97.33546996382933], [32.9330735, -97.3312005]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_b9e0db9d0adf661abd9288826cf0ef2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a7b0981ca695ded4f0d3142fc69ba18 = $(`<div id="html_9a7b0981ca695ded4f0d3142fc69ba18" style="width: 100.0%; height: 100.0%;">Distance: 10.973744122539966 miles</div>`)[0];
+                popup_b9e0db9d0adf661abd9288826cf0ef2a.setContent(html_9a7b0981ca695ded4f0d3142fc69ba18);
+            
+        
+
+        poly_line_e9ee1ede31d0915d0e4919c9aa036624.bindPopup(popup_b9e0db9d0adf661abd9288826cf0ef2a)
+        ;
+
+        
+    
+    
+            var poly_line_3487c568234e7aeb5edb3c591182d0c4 = L.polyline(
+                [[41.8577277509612, -87.66790661400844], [41.8756719, -87.6243469]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_113bfd993818482c4379fd8a9f8e33bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5857cff701d8425a08ff06aeb52e0bf0 = $(`<div id="html_5857cff701d8425a08ff06aeb52e0bf0" style="width: 100.0%; height: 100.0%;">Distance: 2.561376696046223 miles</div>`)[0];
+                popup_113bfd993818482c4379fd8a9f8e33bd.setContent(html_5857cff701d8425a08ff06aeb52e0bf0);
+            
+        
+
+        poly_line_3487c568234e7aeb5edb3c591182d0c4.bindPopup(popup_113bfd993818482c4379fd8a9f8e33bd)
+        ;
+
+        
+    
+    
+            var poly_line_1a9c4369e688e8f5c687b8cd5509159f = L.polyline(
+                [[35.2126586899748, -80.8032053544335], [35.2252808, -80.8421014]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_49f63c5625f480c6c0e4c55f858f4571 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33e7ac241b1741ea4229bd99815ad9c6 = $(`<div id="html_33e7ac241b1741ea4229bd99815ad9c6" style="width: 100.0%; height: 100.0%;">Distance: 2.3623984928275457 miles</div>`)[0];
+                popup_49f63c5625f480c6c0e4c55f858f4571.setContent(html_33e7ac241b1741ea4229bd99815ad9c6);
+            
+        
+
+        poly_line_1a9c4369e688e8f5c687b8cd5509159f.bindPopup(popup_49f63c5625f480c6c0e4c55f858f4571)
+        ;
+
+        
+    
+    
+            var poly_line_dadf9fcbdf41c7ad03792d4f393ea63f = L.polyline(
+                [[43.07297522691032, -87.91286464360249], [43.0450242, -87.9158751]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_1eefdf4eb81883e0fc81ef8a8a33b395 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3044c5c09805704452c8ac578522615a = $(`<div id="html_3044c5c09805704452c8ac578522615a" style="width: 100.0%; height: 100.0%;">Distance: 1.9372026790876944 miles</div>`)[0];
+                popup_1eefdf4eb81883e0fc81ef8a8a33b395.setContent(html_3044c5c09805704452c8ac578522615a);
+            
+        
+
+        poly_line_dadf9fcbdf41c7ad03792d4f393ea63f.bindPopup(popup_1eefdf4eb81883e0fc81ef8a8a33b395)
+        ;
+
+        
+    
+    
+            var poly_line_87228e4780b12775387d16758d97f20a = L.polyline(
+                [[39.082893626961074, -94.5668550445458], [39.0877568, -94.5890335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_96ea5ac0eb95a9c30e7bb8203f35657e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_004059b3dc37c26e21f1caeec875dfa9 = $(`<div id="html_004059b3dc37c26e21f1caeec875dfa9" style="width: 100.0%; height: 100.0%;">Distance: 1.2359997016829924 miles</div>`)[0];
+                popup_96ea5ac0eb95a9c30e7bb8203f35657e.setContent(html_004059b3dc37c26e21f1caeec875dfa9);
+            
+        
+
+        poly_line_87228e4780b12775387d16758d97f20a.bindPopup(popup_96ea5ac0eb95a9c30e7bb8203f35657e)
+        ;
+
+        
+    
+    
+            var poly_line_20c74fafc907b0a32e8850acee19b8b3 = L.polyline(
+                [[35.101777535811564, -90.09443948030362], [35.1483137, -90.0512443]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_481c83c3c9cb28d619ffb2cf0227ce4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdfbe4a2db61b64f652965b839748eed = $(`<div id="html_fdfbe4a2db61b64f652965b839748eed" style="width: 100.0%; height: 100.0%;">Distance: 4.036954867148367 miles</div>`)[0];
+                popup_481c83c3c9cb28d619ffb2cf0227ce4f.setContent(html_fdfbe4a2db61b64f652965b839748eed);
+            
+        
+
+        poly_line_20c74fafc907b0a32e8850acee19b8b3.bindPopup(popup_481c83c3c9cb28d619ffb2cf0227ce4f)
+        ;
+
+        
+    
+    
+            var poly_line_9b2c039578ccf6718e717114de5654c8 = L.polyline(
+                [[34.85942672833154, -82.40757261000392], [34.8466748, -82.4112929]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_59afbef5b91067c1201ef951d365a10b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07792386aad73544e20935ffe47d684f = $(`<div id="html_07792386aad73544e20935ffe47d684f" style="width: 100.0%; height: 100.0%;">Distance: 0.9059729629311742 miles</div>`)[0];
+                popup_59afbef5b91067c1201ef951d365a10b.setContent(html_07792386aad73544e20935ffe47d684f);
+            
+        
+
+        poly_line_9b2c039578ccf6718e717114de5654c8.bindPopup(popup_59afbef5b91067c1201ef951d365a10b)
+        ;
+
+        
+    
+    
+            var poly_line_1c45b399f90b6d986843bb7dd6167bec = L.polyline(
+                [[37.82047443573086, -121.27609086814498], [37.9544795, -121.287361]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_fdd467b3b4abf275be1f0c4ab99476cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc5d1691f4266818096a2aeeb7f08a8a = $(`<div id="html_cc5d1691f4266818096a2aeeb7f08a8a" style="width: 100.0%; height: 100.0%;">Distance: 9.279241272451396 miles</div>`)[0];
+                popup_fdd467b3b4abf275be1f0c4ab99476cc.setContent(html_cc5d1691f4266818096a2aeeb7f08a8a);
+            
+        
+
+        poly_line_1c45b399f90b6d986843bb7dd6167bec.bindPopup(popup_fdd467b3b4abf275be1f0c4ab99476cc)
+        ;
+
+        
+    
+    
+            var poly_line_b9c65933edee1660ef302eda617cd59c = L.polyline(
+                [[36.10249632134082, -86.78000518760335], [36.1602635, -86.7781131]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_091195c5ebaf6c139346af25810ff929 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ce45a531de5ac268dee888eafc15827 = $(`<div id="html_7ce45a531de5ac268dee888eafc15827" style="width: 100.0%; height: 100.0%;">Distance: 3.992728236482476 miles</div>`)[0];
+                popup_091195c5ebaf6c139346af25810ff929.setContent(html_7ce45a531de5ac268dee888eafc15827);
+            
+        
+
+        poly_line_b9c65933edee1660ef302eda617cd59c.bindPopup(popup_091195c5ebaf6c139346af25810ff929)
+        ;
+
+        
+    
+    
+            var poly_line_5c2716a42e34b8212924276765a16574 = L.polyline(
+                [[43.04286316073969, -85.6546340982317], [42.9597268, -85.6717405]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_9a9cdc0947d7de8aa028d6ea3bcb1b97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d16d3accd715e330e046e04e5de82b58 = $(`<div id="html_d16d3accd715e330e046e04e5de82b58" style="width: 100.0%; height: 100.0%;">Distance: 5.808849645224464 miles</div>`)[0];
+                popup_9a9cdc0947d7de8aa028d6ea3bcb1b97.setContent(html_d16d3accd715e330e046e04e5de82b58);
+            
+        
+
+        poly_line_5c2716a42e34b8212924276765a16574.bindPopup(popup_9a9cdc0947d7de8aa028d6ea3bcb1b97)
+        ;
+
+        
+    
+    
+            var poly_line_7546c58a792d95a086346f75e79f686c = L.polyline(
+                [[41.35460009343725, -81.51017383093135], [41.5047834, -81.6856808]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_05150de2e96ac3525d1893e22cadf389 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a50a77e865effd6f5b7558c37cfd4bf = $(`<div id="html_1a50a77e865effd6f5b7558c37cfd4bf" style="width: 100.0%; height: 100.0%;">Distance: 13.79634817743034 miles</div>`)[0];
+                popup_05150de2e96ac3525d1893e22cadf389.setContent(html_1a50a77e865effd6f5b7558c37cfd4bf);
+            
+        
+
+        poly_line_7546c58a792d95a086346f75e79f686c.bindPopup(popup_05150de2e96ac3525d1893e22cadf389)
+        ;
+
+        
+    
+    
+            var poly_line_0ae4bea33f310c76639a25e92f3f1589 = L.polyline(
+                [[39.17922107583599, -76.56888139841108], [39.2904278, -76.6139017]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_8a8ccc4013c947417d9f4571a79f57a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31bf6d1558199d71475a774dc2d907d7 = $(`<div id="html_31bf6d1558199d71475a774dc2d907d7" style="width: 100.0%; height: 100.0%;">Distance: 8.052545670276931 miles</div>`)[0];
+                popup_8a8ccc4013c947417d9f4571a79f57a9.setContent(html_31bf6d1558199d71475a774dc2d907d7);
+            
+        
+
+        poly_line_0ae4bea33f310c76639a25e92f3f1589.bindPopup(popup_8a8ccc4013c947417d9f4571a79f57a9)
+        ;
+
+        
+    
+    
+            var poly_line_b0e058117c8791d2e2794876b84a4d6f = L.polyline(
+                [[37.69410499658918, -122.17164170338108], [37.7936658, -122.3964729]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_0321a8068e524587d00adf1f79e31636 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ffd22c83e8139f7227064b34ef68418 = $(`<div id="html_6ffd22c83e8139f7227064b34ef68418" style="width: 100.0%; height: 100.0%;">Distance: 14.078843374421798 miles</div>`)[0];
+                popup_0321a8068e524587d00adf1f79e31636.setContent(html_6ffd22c83e8139f7227064b34ef68418);
+            
+        
+
+        poly_line_b0e058117c8791d2e2794876b84a4d6f.bindPopup(popup_0321a8068e524587d00adf1f79e31636)
+        ;
+
+        
+    
+    
+            var poly_line_19afb15d2f8dcc29e926b628dcf01e6b = L.polyline(
+                [[39.148584872052176, -84.55178250869487], [39.1007249, -84.5091102]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_5d43cc55802e0ca57896dcf8852edd51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c99c5b3a7af1118cf86b87e2f658de0 = $(`<div id="html_2c99c5b3a7af1118cf86b87e2f658de0" style="width: 100.0%; height: 100.0%;">Distance: 4.0207731834127625 miles</div>`)[0];
+                popup_5d43cc55802e0ca57896dcf8852edd51.setContent(html_2c99c5b3a7af1118cf86b87e2f658de0);
+            
+        
+
+        poly_line_19afb15d2f8dcc29e926b628dcf01e6b.bindPopup(popup_5d43cc55802e0ca57896dcf8852edd51)
+        ;
+
+        
+    
+    
+            var poly_line_be4089481646a9fef2225f676d349743 = L.polyline(
+                [[28.099589153311943, -81.89691454330705], [28.0418887, -81.9575729]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_9de838da28266b0c103e2a87fa1999e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_576852cad26b426914cb728cd8ae25c3 = $(`<div id="html_576852cad26b426914cb728cd8ae25c3" style="width: 100.0%; height: 100.0%;">Distance: 5.437809226952783 miles</div>`)[0];
+                popup_9de838da28266b0c103e2a87fa1999e8.setContent(html_576852cad26b426914cb728cd8ae25c3);
+            
+        
+
+        poly_line_be4089481646a9fef2225f676d349743.bindPopup(popup_9de838da28266b0c103e2a87fa1999e8)
+        ;
+
+        
+    
+    
+            var poly_line_fff2cdd3fd5976bfcb744b1a9af7b8f8 = L.polyline(
+                [[40.69991944348441, -111.81314863176188], [40.7628816, -111.896825]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1ca5f15a324e459f55ba0eb91cd0a7f3);
+        
+    
+        var popup_2148e3e640483c205fc604d88de09811 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4349e0205cb34c5c0118404262231880 = $(`<div id="html_4349e0205cb34c5c0118404262231880" style="width: 100.0%; height: 100.0%;">Distance: 6.174032590597997 miles</div>`)[0];
+                popup_2148e3e640483c205fc604d88de09811.setContent(html_4349e0205cb34c5c0118404262231880);
+            
+        
+
+        poly_line_fff2cdd3fd5976bfcb744b1a9af7b8f8.bindPopup(popup_2148e3e640483c205fc604d88de09811)
+        ;
+
+        
+    
+</script>
+</html>
